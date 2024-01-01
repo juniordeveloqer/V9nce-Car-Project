@@ -1,0 +1,351 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "Categories-car";
+@import "sell-your-car";
+@import "popular-models";
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Crimson+Text&family=PT+Sans:wght@400;700&family=Raleway:wght@200&family=Righteous&family=Roboto:ital,wght@0,300;0,700;1,400&family=Urbanist:wght@700&display=swap");
+$roboto: "Roboto", sans-serif;
+$urbanist: "Urbanist", sans-serif;
+$righteous: "Righteous", sans-serif;
+$primary-color: #e7e7e7;
+$brown: #301a06;
+$border-color: $brown;
+$home-color: #254a60;
+$text-color: #526269;
+$features: #c0bcb0;
+$discount: #fdefde;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to top, $home-color 50%, $primary-color 50%);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.roboto {
+  font-family: $roboto;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  opacity: 60%;
+}
+
+.navbar {
+  padding-top: 0;
+}
+
+.home-page {
+  height: 82vh;
+}
+
+p.logo {
+  font-family: $urbanist;
+  position: relative;
+  text-align: center;
+  margin-top: 4px;
+  font-size: 24px;
+}
+
+.custom-border {
+  border: #301a06;
+  background-color: #d9d9d9;
+  border-width: 2px;
+  border-style: solid;
+}
+p.centered-text-2 {
+  position: absolute;
+  top: 30px;
+  left: 72%;
+  transform: translate(-50%, -50%);
+  color: #d1d1d1;
+  font-size: 16px;
+  font-family: $roboto;
+  font-style: italic;
+}
+
+p.centered-text-1 {
+  position: absolute;
+  top: 30px;
+  left: 27%;
+  transform: translate(-50%, -50%);
+  color: #d1d1d1;
+  font-size: 16px;
+  font-family: $roboto;
+  font-style: italic;
+}
+
+.nav-menu {
+  list-style: none;
+  font-family: $roboto;
+  font-style: italic;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.nav-menu .nav-menu-text {
+  padding: 0 30px;
+  cursor: pointer;
+}
+
+.home {
+  width: 100%;
+  height: 100%;
+  background-color: $home-color;
+}
+
+.home .home-up {
+  width: 100%;
+  height: 50%;
+  background-color: $primary-color;
+}
+
+.home .home-down {
+  width: 100%;
+  height: 50%;
+  background-color: $home-color;
+}
+
+h1 {
+  font-family: $roboto;
+}
+
+.section-p {
+  font-family: $roboto;
+  font-size: 10px;
+  font-style: normal;
+  color: black;
+  font-weight: 600;
+}
+
+.section-h {
+  font-size: 40px;
+  color: #526269;
+  font-weight: bold;
+}
+
+section {
+  z-index: 10;
+}
+
+.box {
+  height: 142px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.boxes {
+  gap: 60px;
+}
+
+.discount {
+  border: #301a06;
+  background-color: $brown;
+  top: 1076;
+  right: 213;
+
+  width: 365px;
+  height: 119px;
+}
+
+.discount-text {
+  font-size: xx-large;
+  font-family: $roboto;
+  color: $discount;
+  justify-content: start;
+  align-items: start;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+}
+
+.car-features {
+  font-family: $roboto;
+  font-size: 10px;
+  color: $features;
+  gap: 40px;
+}
+.car-features-2 {
+  font-family: $roboto;
+  font-size: 9px;
+  color: black;
+  gap: 40px;
+}
+
+.btn {
+  color: black;
+  background-color: $discount;
+
+  border-radius: 5px;
+  font-family: $roboto;
+  font-size: 10px;
+  gap: 20px;
+}
+
+.btn:focus {
+  background-color: #38322c;
+  color: #d1d1d1;
+}
+.btn:hover {
+  background-color: $brown;
+  color: #d1d1d1;
+}
+
+.btn-grid {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.btn-right {
+  color: $discount;
+  background-color: $brown;
+  width: 123px;
+  height: 26px;
+
+  font-family: $roboto;
+  font-size: 12px;
+  font-weight: lighter;
+
+  border-radius: 10px;
+}
+
+.upper-right-text {
+  font-size: 48px;
+  font-family: $righteous;
+  color: #a39585;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+// `xs` returns only a ruleset and no media query
+// ... { ... }
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .navbar {
+    padding-top: 0;
+  }
+}
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .navbar {
+    padding-top: 0;
+  }
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .navbar {
+    padding-top: 0;
+  }
+
+  .section-upper-right {
+    display: none;
+  }
+}
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  .navbar {
+    padding-top: 0px;
+  }
+
+  .section-upper-left {
+    width: 450px;
+    height: 400px;
+  }
+  .upper-right-text {
+    font-size: 20px;
+  }
+  .box {
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 120px;
+    justify-content: center;
+    font-size: 12px;
+  }
+
+  .boxes {
+    gap: 50px;
+    margin-top: 40px;
+  }
+
+  .discount {
+    border: #301a06;
+    background-color: $brown;
+    position: fixed;
+    top: 676px;
+    right: 213px;
+
+    width: 365px;
+    height: 119px;
+  }
+  .car-features-main {
+    display: none;
+  }
+
+  .car-features {
+    display: none;
+  }
+
+  .section-p-1 {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 40px;
+  }
+  .section-p-2 {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 38px;
+  }
+}
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+  .navbar {
+    padding-top: 0px;
+  }
+  .nav-menu {
+    width: 410px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    overflow: hidden;
+  }
+  .upper-right-text {
+    font-size: 40px;
+  }
+  .box {
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 120px;
+  }
+
+  .boxes {
+    gap: 50px;
+    margin-top: 40px;
+  }
+}

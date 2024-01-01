@@ -1,0 +1,106 @@
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+.popular-models {
+  position: absolute;
+  transform: translate(30%, -15%);
+}
+
+.logo-text {
+  position: absolute;
+  transform: translate(65%, -25%);
+  color: white;
+  font-size: 96px;
+  font-family: $roboto;
+  font-style: bold;
+  font-weight: bold;
+}
+
+.box-models {
+  width: 371px;
+  height: 320px;
+  background-color: #d9d9d9;
+  border-style: none;
+}
+
+.models-box {
+  height: 100px;
+}
+
+.box-div {
+  height: 422px;
+  gap: 23px;
+  margin-top: 60px;
+}
+
+.box-models-inner {
+  width: 200px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-models {
+  display: block;
+  margin: 10px auto;
+}
+
+.aston-martin-text {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.outer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.horse {
+  padding-top: 5px;
+}
+
+.aston {
+  max-width: 150px;
+  height: auto;
+}
+
+.porsche {
+  margin-bottom: 35px;
+}
+
+.aston-img {
+  margin-bottom: 27px;
+}
+
+/* Yatayda 50px boşluk bırakma */
+.mt-2 {
+  margin-top: 50px !important;
+}
+
+/* Dikeyde 10px boşluk bırakma */
+.mb-2 {
+  margin-bottom: 10px !important;
+}
+
+.custom-box {
+  width: 237px;
+  height: 219px;
+}
+
+.custom-box img {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.box-gap {
+  gap: 73px;
+}

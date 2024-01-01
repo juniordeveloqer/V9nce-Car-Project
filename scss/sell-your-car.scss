@@ -1,0 +1,163 @@
+$roboto: "Roboto", sans-serif;
+$urbanist: "Urbanist", sans-serif;
+$righteous: "Righteous", sans-serif;
+$primary-color: #e7e7e7;
+$brown: #301a06;
+$border-color: $brown;
+$home-color: #254a60;
+$text-color: #526269;
+$features: #c0bcb0;
+$discount: #fdefde;
+
+.sell-your-car {
+  width: 100%;
+  height: 100%;
+  background-color: #fdefde;
+  overflow: hidden;
+}
+
+.syc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  font-family: $roboto;
+  font-style: italic;
+  color: $discount;
+}
+
+.syc-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-family: $urbanist;
+  font-weight: bold;
+  color: black;
+}
+
+.syc-box {
+  position: absolute;
+  transform: translate(-7%);
+}
+.split-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.content-cntr {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.syc-text-1 {
+  font-size: 24px;
+  font-family: $roboto;
+  font-weight: 600;
+  font-style: normal;
+}
+.syc-text-2 {
+  font-size: 16px;
+  font-family: $roboto;
+}
+.syc-text-outerdiv {
+  padding-top: 5px;
+  width: 760px;
+  height: 60px;
+  margin: auto;
+}
+.syc-button {
+  margin-top: 80px;
+  font-family: $roboto;
+  font-size: 16px;
+  font-weight: 100;
+  border-style: solid;
+  border-color: $brown;
+  color: $brown;
+  width: 188px;
+  height: 38px;
+}
+
+.syc-button-1 {
+  font-family: $roboto;
+  font-size: 16px;
+  font-weight: 100;
+  border-style: solid;
+  border-color: $brown;
+  color: $brown;
+  width: 188px;
+  height: 38px;
+  background-color: white;
+}
+.block-element button {
+  margin-bottom: 10px; /* Paragraflar arasındaki boşluğu ayarlayın */
+}
+
+.first-container {
+  width: 1440px;
+  height: 514px;
+}
+
+.sec-3-text {
+  font-family: $roboto;
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+  width: 378px;
+  height: 114px;
+}
+
+.sec-3-div {
+  margin-top: 112px;
+  gap: 10px;
+}
+
+.sec-3-div-2 {
+  width: 332px;
+  height: 138px;
+  padding-top: 30px;
+  margin-left: 520px;
+}
+
+.sec-3-text-2 {
+  font-family: $roboto;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sec-3 {
+  width: 458px;
+  height: 114px;
+  padding-top: 10px;
+}
+
+.sec-3-text-3 {
+  font-family: $roboto;
+  font-size: 14px;
+  font-weight: 600;
+}
+.email {
+  background-color: $discount;
+  border-style: solid;
+  border-color: black;
+  width: 226px;
+  height: 37px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.email-2 {
+  background-color: $discount;
+  border-style: solid;
+  border-color: black;
+  width: 90px;
+  height: 37px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
